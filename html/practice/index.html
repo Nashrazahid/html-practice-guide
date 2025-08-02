@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--head k tag k beach mein wo element hota hai jo humy apni web per display nhi karna-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!--body k tag k bech wo element hota hai jo humny web page per display karwana hota hai -->
+<body>
+    <!--ye p wala parapraph tag hai-->
+    <P>hello world!</P>
+    <P> hello world hello worldhello world hello world hello world hello world hello world hello world hello world hello world  </P>
+    <!-- ye h wala tag heading k liye hai -->
+    <h1>portfolio</h1>
+    <h2>portfolio2</h2>
+    <h3>portfolio3</h3>
+    <h4>portfolio3</h4>
+    <h5>portfolio3</h5>
+    <h6>portfolio3</h6>
+    <!-- achor tag hum web page per link add karne k liye karty ye absolute link hai matlab kisi or web ka link. ye href attribute hai -->
+     <a href="https://www.youtube.com/watch?v=HcOc7P5BMi4&list=PLfqMhTWNBTe0PY9xunOzsP5kmYIz2Hu7i">youtube</a>
+     <!-- br wala tag hum alag line mein dispaly karwane k liye likhty ager likho tou youtube or copilot aik sath aajayengy aik hi line mein -->
+     <br />
+     <a href="https://www.bing.com/chat?form=NTPCHB" >copilot</a>
+     <br/>
+     <!-- line 29 waly tareeky see hum dosri file ki link de sakty. ye relative link hai apni hi web page ka link or ager ye file kisi or folder mein ho tou /foldename /filename-->
+    <a href= "/hello.html">go to hello</a>
+    <!--ye pic display karwane ka tareeka hai absolute link se height or width mein se aik use karo ye kam css se karna chahiya-->
+    <img
+     src="https://media.istockphoto.com/id/173015527/photo/a-single-red-book-on-a-white-surface.jpg?s=612x612&w=0&k=20&c=AeKmdZvg2_bRY2Yct7odWhZXav8CgDtLMc_5_pjSItY="alt="notebook" width="100"/>
+     <br/>
+     <!--ye dosre file se pic display karne ka tareeka-->
+     <img
+     src="/image.png"alt="notebooks"height="100"/>
+     <br/>
+     <!-- apke page per highlight text daalne k liye -->
+     <b>bold</b>
+     <br/>
+     <i>italic</i>
+     <br/>
+     <u>underline</u>
+     <!--aik hi paragraph mein ap underline italic or bold kar sakte text ko-->
+     <P>
+        <u>sample pragraph</u> sample pragraph sample pragraph sample pragraph sample pragraph
+     </P>
+     <big>this tag show big text</big>
+     <!--ye hr horizontal ruler ka kam karta hai aik line space line laga kr deta. ye content ko alag karta -->
+     <hr/>
+     <small>this tag show small text</small>
+     <!--subscript mein text k neche koi value display karne k liye hota-->
+     <p>H<sub>2</sub>O</p>
+     <!--superscript mein text k opper koi value display karne k liye hota-->
+     <p>3<sup>2</sup>=9</p>
+     <!--html by default space or next line hata deta hai ye tag jis tarha humne text likha hai use tarha display karwane k liye (bagair space and next line hataye) warna jab hum paragraph likhty wo text mein space or next line hata k display karwata  -->
+     <pre>Lorem ipsum dolor                     sit amet consectetur, adipisicing elit. Magni eos possimus consequuntur a velit unde nobis laudantium praesentium? Aut tempore fugit odio iste exercitationem magnam iure eaque id possimus quo.</pre>
+     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea provident, maxime eveniet totam quam sint doloribus laudantium                            deleniti! Accusantium illo odit expedita ad recusandae ex et omnis cupiditate ut unde.</p>
+     <!--layout html mein wo code hota hai jo display mein tou asar nhi daalta per internal hamari web kese kam kr rahe hai seo matlab ranking mein hamari web opper ja raha ya neche aa raha hai us per heavy impact daalta-->
+     <!-- page layout techniques mein html mein do tarha k tags hoty semantic and non semantic . semantic samjh me ane waly tags jese header or footer naam se hi pata chal raha k header mein web page ki headings opper wali chez or footer mein neche wala hissa or non semantic na samjh me ane waly jese div span inhe dekh k nhi bata nhi sakty ismein kia hoga  -->
+      <!-- semantic tag se code readable banta or structure hota hai code semantic tags se .ager hum ne wed pure html se banaye ho tou jitne semantic tags hongy utna seo mablab ranking improve hoga sahi layout se user experience barh jata hai -->
+       <!-- is mein humy sahi tag ko sahi kamo k liye use karna jese h1 or p wala tag header, main or footer k liye nhi hai un k liye makhsoos tags hai haan header footer or main k bech mein inka istamal hota hai-->
+
+       <header>
+      <pre>  <h1>  portfolio </h1>
+      </pre> </header>
+      <!-- main mein hum section me likh sakty article likh sakty or ager humne koi add chalane ho apni web pe tou use hum main k tag mein aside tag mein likh sakty hai takygoogle use read na kary seo matlab ranking mutasir na ho q k us ka hamare main content se taluk nhi hota -->
+      <main>
+       <section>education:BA</section>
+       <article>my story:</article>
+       <aside>this is add</aside>
+       <!-- anchor tag mein target likh sakty is se new tab mein khulta hai -->
+       <a href="https://www.youtube.com/watch?v=HcOc7P5BMi4&list=PPSV" target ="_main"><img scr="https://static.vecteezy.com/system/resources/thumbnails/018/930/572/small/youtube-logo-youtube-icon-transparent-free-png.png"alt=youtube></a>
+       <!-- click able photo ap ismein height or width bhi set kar sakty ager height set karengy tou width bhi us k mutabik set hojaye or esa hi with set karengy tou height bhi set ho jaye gi-->
+      </main>
+      <footer>
+        <h3>contact me at nashrazahid5577@gmail.com</h3>
+      </footer>
+      <!--div ka apna koi special koi kam nhi hai ye container hai baki html tags k liye.div non semantic hai hai ye block element hai block element matlab ye puri width gheerh leta or jo inline element hoty hai wo utne hi jagga lete jitna likha hota. inline element ko soch samjh k istamal karna hota hai  -->
+<div><p>hello world</p>
+<P>hi</P>
+<p>my freind</p></div>
+<!--span bhi aik container hai baki html tags k liye lakin inline element k liye jo inline element hoty hai wo utne hi jagga lete jitna likha hota. inline element ko soch samjh k istamal karna hota-->
+<span> <sub>bye</sub></span>
+
+<!-- list ki form mein bhi likhwa sakty us k liye (li) ka tag use hota -->
+ <!-- ul se unordered way mein list display ho sakty matlab bagair sequence mein likhe -->
+  <ul><LI>mango</LI>
+    <!--list mein or list bhi bana sakty hai -->
+    <ul><li>color:yellow</li>
+    <LI>season:summer</LI></ul>
+<li>orange</li>
+<li>apple</li></ul>
+<!--ol se hum ordered list bhi bana sakty order matlab sequence k sath 1,2,3 numbering wagaira k sath-->
+<ol><LI>tomato</LI>
+<UL>color:red</UL>
+<LI>potato</LI></ol>
+<!-- table k tags se table banty -->
+ <table>
+    <thead>
+    <caption>student data</caption>
+    <tr>
+        <!-- kisi coloum ko merge kr kuck likhne k liye th colspan -->
+        <th colspan = "2">
+            information
+        </th>
+    </tr>
+    <!--th se table header banta -->
+    <tr><th>name</th>
+    <th>roll no</th></tr></thead>
+    <!-- td mein table data banta -->
+     <!-- tr se row banti -->
+    <tbody><tr><td>nashra</td>
+     <td>1234</td></tr></tbody>
+ </table>
+ <h4>registration form</h4>
+ <!--form form banane k lie hota or action mein likhty k ye kaha jaye gi or form ko check karty k thek fill hoa ya nhi  -->
+ <form action=./action.php>
+    <!-- ye text input lega placeholder matlab is mein phely se kia likha hoga jab tak hum kuch or nhi likhte-->
+<input type ="type" placeholder="user name">
+<br><br>
+<!-- type password likhengy tou jab hum password daalengy tou tou dot dot show hoga or eye wala icon bhi jese click kr k hum dekh saky -->
+<input type ="password" placeholder="password">
+<br><br>
+<h2>select class</h2>
+<!-- kisi bhi input per label assign karne ko khty .labels screen readers k liye helpfull hoty or dusra radio button k liye use hota radio button matlab options jin mein se sirf aik select kar sakty -->
+<label>
+    <label for = "100">
+ <!-- ye jo value hai ye backend per jati ager isme humne ghalat value daale tou jo value mein humne likha hoga wohi lega beckend name mein jo bhi likha ho . or user ko value nhi dhikti or backend ko jo display karwa rahe wo nhi dikhta id no in dono ko alag karne k liye .labels ka faida ye hota k hum text pr bhi click kare to ho jaye option select -->
+        <input type = radio value="class XI" name = class id ="100" >class XI
+    </label>
+    <br>
+    <label for = "102">
+        <input type = radio value="class XII" name = class id ="102" >class XII
+    </label>
+</label>
+<!--ye labels checkbox k liye jis aik se ziada option choose ho sakty -->
+<br><br>
+<h3>select subject</h3>
+<label>
+    <label for ="math">
+        <input type = checkbox value="math" name ="subject" id = "101">math
+    </label>
+    <br>
+    <label for ="physics">
+        <input type = checkbox value="physics" name ="subject" id = "102">physics
+    </label>
+    <br>
+    <label for ="bio">
+        <input type = checkbox value="bio" name ="subject" id = "103">bio
+    </label>
+    <br>
+    <label for ="chemistry">
+        <input type = checkbox value="chemistry" name ="subject" id = "104">chemistry
+    </label>
+    <br>
+    <label for ="english">
+        <input type = checkbox value="english" name ="subject" id = "105">english
+    </label>
+</label>
+<br><br>
+<!--drop down matlab ye select me option de sakty -->
+select your city
+<select name = "city">
+    <option value = karachi>karachi</option>
+    <option value = multan>multan</option>
+    <option value = islamabad>islamabad</option>
+    <option value = hyderabad>hyderabad</option>
+</select>
+<br><br>
+<!--ye tag akhir mein feedback k liye hai row mein likh sakty jitne row chahiye -->
+<textarea name =feedback id="101" placeholder="feedback here" rows = 5>feedback</textarea>
+<!--is se submit ka button ayega -->
+<input type = "submit" value ="submit">
+</form>
+<br><br>
+<!-- is mein hum koi video ya web jese hai wese hi apni web per chala sakty ziada tar web ye allow nhi karti -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=pyMgJpmD7urWr8uw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<br>
+<!-- video bhi chala sakty relative or absolute link k sath ise hum control likhengy tab hi ye chalegi or ise hum loop ya auto bhi kr sakty auto na hi karo tou acha is se user experience kharab hota-->
+ <video width = "560" height ="315"  src="https://www.youtube.com/embed/HcOc7P5BMi4?si=pyMgJpmD7urWr8uw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" control loop auto >my video</video>
+</body>
+</html>
